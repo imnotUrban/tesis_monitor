@@ -20,7 +20,7 @@ func main() {
 	for {
 		checkService(frontendURL, "Frontend")
 		checkService(backendURL, "Backend")
-		time.Sleep(5 * time.Minute)
+		time.Sleep(120 * time.Minute)
 	}
 }
 
